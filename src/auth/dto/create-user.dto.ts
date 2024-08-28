@@ -6,7 +6,6 @@ import { excludeRolesFieldsFromValidation } from "src/lib/exclude-fields";
 
 
 export class AddressDto {
-
   @IsString()
   @IsNotEmpty()
   street: string;
